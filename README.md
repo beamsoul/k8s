@@ -49,7 +49,8 @@ Nodeport- Exposes a CONTAINER to the, outside world , as a dev open my browser a
 
  When we create a service object and set up a Service Nodeport - it's going to make a communication between the  multi-client container and the outside world 
 
- kubeproxy -one single window to the outside world, like a 
+ kubeproxy -one single window to the outside world in the Node, like a Internet gateway, which connect talks to services and does the described job .
+
 
 
 
