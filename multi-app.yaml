@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: client-pod
+  labels:
+    component: web
+
+spec:
+  container: web 
+    - name: client 
+      image: 
+      ports:
+        - containerPort: 3000
+        
