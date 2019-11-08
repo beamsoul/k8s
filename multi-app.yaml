@@ -9,6 +9,5 @@ spec:
   container: web 
     - name: client 
       image: 
-      ports:
+      port:
         - containerPort: 3000
-        
